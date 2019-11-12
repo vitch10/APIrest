@@ -7,7 +7,7 @@ export class Routes {
         app.route('/')
         .get((req: Request, res: Response) => {            
             res.status(200).send({
-                message: 'GET request successfulll!!!!'
+                message: 'Solicitação GET bem-sucedida !!!!'
             })
         })
         
@@ -17,14 +17,14 @@ export class Routes {
         .get((req: Request, res: Response) => {
         // Get all contacts            
             res.status(200).send({
-                message: 'GET request from contact'
+                message: 'Solicitação GET bem-sucedida !!!!'
             })
         })        
         // POST endpoint
         .post((req: Request, res: Response) => {   
         // Create new contact         
             res.status(200).send({
-                message: 'POST request create a new contact'
+                message: 'Solicitação POST bem-sucedida !!!!'
             })
         })
 
@@ -34,19 +34,19 @@ export class Routes {
         .get((req: Request, res: Response) => {
         // Get a single contact detail            
             res.status(200).send({
-                message: 'GET request contact Id'
+                message: 'Solicitação GET id contacto bem-sucedida !!!!'
             })
         })
         .put((req: Request, res: Response) => {
         // Update a contact           
             res.status(200).send({
-                message: 'PUT request new contact'
+                message: 'Solicitação PUT bem-sucedida !!!!'
             })
         })
         .delete((req: Request, res: Response) => {       
         // Delete a contact     
             res.status(200).send({
-                message: 'DELETE request contact'
+                message: 'Solicitação DELETE um contacto bem-sucedida !!!!'
             })
         })
     }
