@@ -13,7 +13,7 @@ class App {
     constructor() {
         this.config();
         this.mongoSetup();
-        this.routePrv.routes(this.app);     
+        this.routePrv.routes(this.app); 
     }
 
     private config(): void{

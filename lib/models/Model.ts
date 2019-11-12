@@ -5,11 +5,11 @@ const Schema = mongoose.Schema;
 export const ContactSchema = new Schema({
     firstName: {
         type: String,
-        required: 'Enter a first name'
+        required: 'Coloca o Primeiro Nome'
     },
     lastName: {
         type: String,
-        required: 'Enter a first name'
+        required: 'Coloca Sobrenome '
     },
     email: {
         type: String            
